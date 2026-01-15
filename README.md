@@ -40,7 +40,7 @@ satellite-image-classification/
 ├── README.md              # This file
 │
 │
-└── outputs/               # Generated outputs (created automatically)
+└── output/               # Generated outputs (created automatically)
     ├── models/            # Saved model checkpoints
     ├── visualizations/    # Dataset and training visualizations
     └── results/           # Evaluation results and GradCAM
@@ -169,14 +169,23 @@ The training pipeline generates comprehensive results:
 ### 2. Training Metrics
 
 - **Loss Curves**: Training and validation loss over epochs
+![Class Imbalance Analysis](output/results/loss_metrics.png)
 - **Accuracy Curves**: Training and validation accuracy over epochs
+![Class Imbalance Analysis](output/results/accuracy_metrics.png)
 - **F1 Score Curves**: Training and validation F1 scores over epochs
+![Class Imbalance Analysis](output/results/F-1_score.png)
 
 ### 3. Evaluation Results
 
 - **GradCAM Visualizations**: Visual explanations showing which regions the model focuses on
+![Class Imbalance Analysis](output/results/GradCAM.png)
 - **Confusion Matrix**: Detailed breakdown of predictions vs ground truth
+[Class Imbalance Analysis](output/results/Confusion_matrix.png)
 - **Test Accuracy**: Final model performance on test set
+```
+283it [00:04, 57.45it/s]
+Accuracy of the model on the test data -> 0.993
+```
 
 ## 🏗️ Model Architecture
 
