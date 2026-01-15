@@ -162,25 +162,18 @@ The training pipeline generates comprehensive results:
 ### 1. Dataset Visualizations
 
 - **Sample Images**: Random samples from train/val/test sets
-![Dataset Samples](output/visuals/train_ds.png)
 - **Class Distribution**: Bar chart showing class imbalance
-![Class Imbalance Analysis](output/visuals/class_imbalance.png)
 
 ### 2. Training Metrics
 
 - **Loss Curves**: Training and validation loss over epochs
-![Class Imbalance Analysis](output/results/loss_metrics.png)
 - **Accuracy Curves**: Training and validation accuracy over epochs
-![Class Imbalance Analysis](output/results/accuracy_metrics.png)
 - **F1 Score Curves**: Training and validation F1 scores over epochs
-![Class Imbalance Analysis](output/results/F-1_score.png)
 
 ### 3. Evaluation Results
 
 - **GradCAM Visualizations**: Visual explanations showing which regions the model focuses on
-![Class Imbalance Analysis](output/results/GradCAM.png)
 - **Confusion Matrix**: Detailed breakdown of predictions vs ground truth
-[Class Imbalance Analysis](output/results/Confusion_matrix.png)
 - **Test Accuracy**: Final model performance on test set
 ```
 283it [00:04, 57.45it/s]
@@ -206,29 +199,30 @@ Change the model using the `--model_name` argument.
 ## 🎨 Visualization Examples
 
 ### Dataset Samples
-![Dataset Samples](outputs/visualizations/train_samples.png)
+![Dataset Samples](output/visuals/train_ds.png)
 *Example training images from each class*
 
 ### Class Distribution
-![Class Distribution](outputs/visualizations/class_distribution.png)
+![Class Distribution](output/visuals/class_imbalance.png)
 *Dataset class imbalance analysis*
 
 ### Training Curves
-![Loss Curve](outputs/visualizations/loss_curve.png)
+=
+![Loss Curve](output/results/loss_metrics.png)
 *Training and validation loss over epochs*
 
-![Accuracy Curve](outputs/visualizations/accuracy_curve.png)
+![Accuracy Curve](output/results/accuracy_metrics.png)
 *Training and validation accuracy over epochs*
 
-![F1 Score Curve](outputs/visualizations/f1_score_curve.png)
+![F1 Score Curve](output/results/F-1_score.png)
 *Training and validation F1 scores over epochs*
 
 ### GradCAM Results
-![GradCAM](outputs/results/gradcam_results.png)
+![GradCAM](output/results/GradCAM.png)
 *GradCAM visualizations showing model attention*
 
 ### Confusion Matrix
-![Confusion Matrix](outputs/results/confusion_matrix.png)
+![Confusion Matrix](output/results/Confusion_matrix.png)
 *Detailed performance breakdown*
 
 ## 🔧 Customization
