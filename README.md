@@ -2,7 +2,7 @@
 
 A comprehensive deep learning pipeline for satellite image classification using PyTorch and transfer learning with GradCAM visualization.
 
-## 📋 Table of Contents
+## 📋 Table of Content
 
 - [Features](#features)
 - [Project Structure](#project-structure)
